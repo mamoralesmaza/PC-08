@@ -1,0 +1,27 @@
+namespace actividad2semana5_martin_morales
+{
+     class actividad2s5
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese un numero:");
+        double a = Convert.ToDouble(Console.ReadLine()); 
+
+        Console.WriteLine("Ingrese un numero:");
+        double b = Convert.ToDouble(Console.ReadLine()); 
+
+        if(a < b)
+        {
+            Console.WriteLine("Falso");
+        }
+        if(a > b)
+        {
+            Console.WriteLine("Verdadero");
+        }
+        if(a == b)
+        {
+            Console.WriteLine("Iguales");
+        }
+    }
+}
+}
